@@ -1,0 +1,28 @@
+{
+  "name": "@fabianmarz/slack-emoji-upload",
+  "version": "0.1.0",
+  "description": "A Puppeteer script to automatically upload Emoji's to your Slack team.",
+  "main": "index.js",
+  "repository": "fabianmarz/slack-emoji-upload",
+  "author": "Fabian Marz <marz.fabian@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "slack-emoji-upload": "./index.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "slack",
+    "emoji",
+    "script",
+    "upload",
+    "automatic",
+    "automatically"
+  ],
+  "dependencies": {
+    "inquirer": "^5.2.0",
+    "minimist": "^1.2.0",
+    "node-emoji": "^1.8.1",
+    "node-glob": "^1.2.0",
+    "puppeteer": "^1.3.0"
+  }
+}
