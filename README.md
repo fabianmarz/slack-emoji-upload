@@ -30,4 +30,5 @@ $ slack-emoji-upload <path/to/your/emojis> [--debug]
 - [ ] Check if the login was actually successfull.
 - [ ] Remove first line of success message.
 - [ ] Remove processed file after successfull upload?
-- [ ] …
+- [ ] Accept Team name from CLI rather using the E-Mail domain.
+- [ ] etc.
